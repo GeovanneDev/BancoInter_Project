@@ -373,6 +373,38 @@ picture img {
 /*MAIN_CONTENT-REPONSIVE*/
 /*MAIN_CONTENT*/
 
+.help_Center {
+    margin-left: 60%;
+    margin-top: 6em;
 
+    display: flex;
+    gap: 1em;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    cursor: pointer;
+    width: 25em;
+    border-radius: 8px;
+    background:rgba(75, 74, 74, 0.1) ;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+.footer_text{
+    font-family: 'inter';
+    color: var(--text);
+    font-size: 1.8em;
+
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .help_Center{
+        max-width: 100%;
+        margin-right: 22em;
+        margin-bottom: 5em;
+    }
+}
 
 
