@@ -1,15 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abra sua conta Inter</title>
+    <link rel="stylesheet" href="forms.css">
 </head>
+
 <body>
     <div class="app-conteiner">
 
         <h1 class="title_main">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="32" height="32"
+                color="#FF7A00" data-darkreader-inline-color="" style="--darkreader-inline-color: #ff871a;">
+                <path stroke="#FF7A00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21.95 11C21.45 5.947 17.186 2 12 2 6.477 2 2 6.477 2 12c0 5.185 3.947 9.449 9 9.95"
+                    data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: #ff871a;"></path>
+                <path stroke="#FF7A00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 9h-4.5A1.5 1.5 0 0 0 9 10.5v0a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 1 1.5 1.5v0a1.5 1.5 0 0 1-1.5 1.5H9M12 9V7M12 17v-2M21 18l-3-3-3 3M18 15v6"
+                    data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: #ff871a;"></path>
+            </svg>
+
             Abra agora sua conta Digital
         </h1>
 
@@ -20,13 +32,41 @@
                 <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
 
                 <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required placeholder=" digite seu sobre nome">
+                <input type="text" name="sobrenome" id="sobrenome" required placeholder=" Digite seu sobre Nome">
 
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" id="email" required placeholder="digite um e-mail válido">
-                
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" required placeholder="Digite um e-mail Válido">
+
+                <label for="text"><strong>Cpf</strong></label>
+                <input type="text" name="cpf" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+                    title="Digite um CPF no formato: xxx.xxx.xxx-xx" placeholder="___.___.___-__">
+                <!--<input type="submit" value="Verificar"> -->
+
+                <a href="" class="field-btn">
+                    <p>
+                        Criar Conta Agora
+                    </p>
+                </a>
+
+                <p class="field_text">
+                    Já preencheu? <a
+                        href="https://play.google.com/store/apps/details?id=br.com.intermedium&hl=pt_BR&gl=US">Agora
+                        baixe o App</a>
+                </p>
             </div>
+            <!--
+                <div class="field_conditions">
+				<p class="field_conditions-text">
+                    Autorizo o Inter a tratar meus dados pessoais para envio de comunicações sobre <br> 
+                    seus produtos e serviços e também estou de acordo com a <span>Política de Privacidade.</span>
+				</p>
+
+                <input type="checkbox" id="conditions" name="conditions" value="conditions">
+
+			</div>
+            -->
         </form>
     </div>
 </body>
+
 </html>

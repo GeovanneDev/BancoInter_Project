@@ -134,6 +134,23 @@ button {
     color: orange;
 }
 
+.page_translation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+
+    cursor:pointer;
+
+    border: 1px solid rgb(222, 223, 228);
+    border-radius: 12px;
+
+    height: 3em;
+    width: 9em;
+
+    box-shadow: 2px 2px 2px 2px rgba(121, 109, 109, 0.3);
+}
+
 /*HEADER*/
 
 

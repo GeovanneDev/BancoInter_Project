@@ -15,3 +15,4 @@ function togglenavigation(event) {
 
 btnMobile.addEventListener('click', togglenavigation);
 btnMobile.addEventListener('touchstart', togglenavigation);
+
