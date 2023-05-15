@@ -134,13 +134,13 @@ button {
     color: orange;
 }
 
-.page_translation{
+.page_translation {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 1em;
 
-    cursor:pointer;
+    cursor: pointer;
 
     border: 1px solid rgb(222, 223, 228);
     border-radius: 12px;
@@ -299,7 +299,7 @@ section svg {
 
 
 .content_account-btn {
-    background:rgb(255, 135, 26);
+    background: rgb(255, 135, 26);
     width: 40%;
     padding: 2em;
     text-align: center;
@@ -311,7 +311,7 @@ section svg {
     margin-top: 1em;
 }
 
-.content_account-btn:hover{
+.content_account-btn:hover {
     background: transparent;
     transition: 2s;
 }
@@ -323,7 +323,7 @@ section svg {
     color: var(--text);
 }
 
-.content_account-btn p:hover{
+.content_account-btn p:hover {
     color: rgb(255, 135, 26);
     transition: 1s;
 }
@@ -364,12 +364,13 @@ picture img {
         margin-bottom: 2em;
     }
 
-    picture img{
+    picture img {
         margin: 0;
         height: auto;
         max-width: 100%;
     }
 }
+
 /*MAIN_CONTENT-REPONSIVE*/
 /*MAIN_CONTENT*/
 
@@ -386,12 +387,12 @@ picture img {
     cursor: pointer;
     width: 25em;
     border-radius: 8px;
-    background:rgba(75, 74, 74, 0.1) ;
+    background: rgba(75, 74, 74, 0.1);
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
 }
 
-.footer_text{
+.footer_text {
     font-family: 'inter';
     color: var(--text);
     font-size: 1.8em;
@@ -400,7 +401,7 @@ picture img {
 }
 
 @media only screen and (max-width: 768px) {
-    .help_Center{
+    .help_Center {
         max-width: 100%;
         margin-right: 22em;
         margin-bottom: 5em;
@@ -408,3 +409,88 @@ picture img {
 }
 
 
+/*POP-UP/CSS*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(40, 42, 43);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(255, 166, 0);
+}
+
+.overlay_title {
+    font-family: 'Inter';
+    color: #ff4800;
+    padding: 1em;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+img {
+    margin-bottom: -0.4em;
+    margin-left: 1em;
+}
+
+.overlay ul li {
+    display: grid;
+    place-items: center;
+    background: rgb(28, 31, 32);
+    border-radius: 1em;
+    list-style: none;
+
+    padding: 1em;
+    margin: 1em;
+    width: 50%;
+}
+
+.overlay ul {
+    display: grid;
+    place-items: center;
+
+}
+
+.pop-up_list-title {
+    font-family: 'Inter';
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pop-up_list-text {
+    font-family: 'Inter';
+    color: #a4a8ad;
+
+    font-weight: 500;
+
+    font-size: 1.2em;
+
+    margin-top: 0.5em;
+}
+
+.pop-up_list-text span {
+    color: #ff4800;
+    font-weight: bold;
+}
+
+.pop-up_list-text svg {
+    margin-inline: auto;
+    position: fixed;
+    margin-top: 2.5px;
+}
+/*POP-UP/CSS*/

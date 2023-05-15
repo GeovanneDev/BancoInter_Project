@@ -299,21 +299,67 @@
         </main>
 
         <footer class="help_Center">
-            <img src="https://cdn.discordapp.com/attachments/1105563914432954380/1105564041402916894/download_1.png"alt="">
-
+            <img src="https://cdn.discordapp.com/attachments/1105563914432954380/1105564041402916894/download_1.png"
+                alt="">
             <p class="footer_text">
                 Central de ajuda
             </p>
-
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32" width="2em" height="2em"
-                color="#FF7A00" data-darkreader-inline-color="" style="--darkreader-inline-color:#ff871a;">
+            <svg id="openPopup" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32" width="2em"
+                height="2em" color="#FF7A00" data-darkreader-inline-color="" style="--darkreader-inline-color:#ff871a;">
                 <path stroke="#FF7A00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                     d="M25.333 20.667 16 11.333l-9.333 9.334" data-darkreader-inline-stroke=""
                     style="--darkreader-inline-stroke:#ff871a;"></path>
             </svg>
         </footer>
+
+        <div class="overlay" id="popupOverlay">
+            <div class="popup">
+                <h1 class="overlay_title">
+                    <img src="https://cdn.discordapp.com/attachments/1105563914432954380/1105564041402916894/download_1.png"
+                        alt="">
+                    Olá como posso ajudar ?
+                    <svg id="closePopup" width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-testid="icon" color="#B6B7BB" data-darkreader-inline-color="" style="--darkreader-inline-color: #bbb6ad;"><path d="M5 5L19 19" stroke="#B6B7BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: #bbb6ad;"></path><path d="M5 19L19 5.00001" stroke="#B6B7BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: #bbb6ad;"></path></svg>
+                </h1>
+
+                <ul class="pop-up_list">
+                    <li>
+                        <h1 class="pop-up_list-title">
+                            Posso ter uma conjunta ?
+                        </h1>
+
+                        <p class="pop-up_list-text">
+                            Escrito por <span>Babi</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32" width="1em"
+                                height="1em" color="#FF7A00" data-darkreader-inline-color=""
+                                style="--darkreader-inline-color:#ff871a;">
+                                <path stroke="#FF7A00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                    d="M12 6.667 21.333 16 12 25.333" data-darkreader-inline-stroke=""
+                                    style="--darkreader-inline-stroke:#ff871a;"></path>
+                            </svg>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h1 class="pop-up_list-title">
+                            Como solicito abertura de conta digital?
+                        </h1>
+
+                        <p class="pop-up_list-text">
+                            Escrito por <span>Babi</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32" width="1em"
+                                height="1em" color="#FF7A00" data-darkreader-inline-color=""
+                                style="--darkreader-inline-color:#ff871a;">
+                                <path stroke="#FF7A00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                    d="M12 6.667 21.333 16 12 25.333" data-darkreader-inline-stroke=""
+                                    style="--darkreader-inline-stroke:#ff871a;"></path>
+                            </svg>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="./main.js"></script>
+    <script src="./pop-up.js"></script>
 </body>
-
 </html>
